@@ -10,6 +10,7 @@ describe("validating dragdrop", () => {
     let tar = await $('//div[@id="trash"]');
     await src.dragAndDrop(tar);
     await browser.switchToParentFrame();
+    console.log("Test")
 
     let calender = await $('//table[@id="wp-calendar"]');
 

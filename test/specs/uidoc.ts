@@ -7,7 +7,6 @@ describe("validating diff dropdown", async () => {
     let click = await $('//div[@class="ui dropdown"]');
     await browser.pause(5000);
     await click.click();
-    await browser.pause(5000);
 
     await $('(//i[@class="dropdown icon"])[6]').click();
   });
