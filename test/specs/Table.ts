@@ -6,7 +6,7 @@ describe("validating table value", async () => {
     let Bahrain = await $('//table[@id ="countries"]//tr//td//strong[contains(text(),"Bahrain")]'
     );
 
-    await browser.pause(5000);
+    //await browser.pause(5000);
     Bahrain.click();
 
     let text = Bahrain.getText();
